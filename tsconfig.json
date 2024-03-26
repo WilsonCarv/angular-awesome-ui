@@ -11,6 +11,17 @@
     "noFallthroughCasesInSwitch": true,
     "esModuleInterop": true,
     "sourceMap": true,
+    "paths": {
+      "angular-awesome-library": [
+        "./dist/angular-awesome-library"
+      ],
+      "my-lib": [
+        "./dist/my-lib"
+      ],
+      "ui-lib": [
+        "./dist/ui-lib"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
